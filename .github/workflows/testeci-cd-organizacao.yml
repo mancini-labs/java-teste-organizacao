@@ -7,7 +7,7 @@ on:
 jobs:
   pipeline-geral:
     # Chama o Mestre
-    uses: mancini-devops/ops-infra/.github/workflows/java-maven-docker-template.yml@main
+    uses: mancini-labs/ops-infra/.github/workflows/java-maven-docker-template.yml@main
     
     # A MÁGICA: "Herde todos os segredos da organização automaticamente"
     secrets: inherit
